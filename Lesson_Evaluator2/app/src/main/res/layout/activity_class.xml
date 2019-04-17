@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Class">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/collapsing_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:contentScrim="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+            <ImageView
+                android:id="@+id/class_image_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                app:layout_collapseMode="parallax"/>
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin" />
+        </android.support.design.widget.CollapsingToolbarLayout>
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="课程名: "
+                    android:textSize="20dp"
+                    android:textColor="#000000"/>
+                <TextView
+                    android:id="@+id/course_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:textColor="#000000"/>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="课程号: "
+                    android:textSize="20dp"
+                    android:textColor="#000000"/>
+                <TextView
+                    android:id="@+id/course_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:textColor="#000000"/>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="英文名称: "
+                    android:textSize="20dp"
+                    android:textColor="#000000"/>
+                <TextView
+                    android:id="@+id/english_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:textColor="#000000"/>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="先修课程: "
+                    android:textSize="20dp"
+                    android:textColor="#000000"/>
+                <TextView
+                    android:id="@+id/advanced_placement"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:textColor="#000000"/>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="中文简介: "
+                    android:textSize="20dp"
+                    android:textColor="#000000"/>
+                <TextView
+                    android:id="@+id/chinese_introduction"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:textColor="#000000" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="英文简介: "
+                    android:textSize="20dp"
+                    android:textColor="#000000"/>
+                <TextView
+                    android:id="@+id/english_introduction"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:textColor="#000000" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="开课院系: "
+                    android:textSize="20dp"
+                    android:textColor="#000000"/>
+                <TextView
+                    android:id="@+id/college"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:textColor="#000000" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="通选课领域: "
+                    android:textSize="20dp"
+                    android:textColor="#000000"/>
+                <TextView
+                    android:id="@+id/field"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:textColor="#000000" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="是否属于艺术与美育: "
+                    android:textSize="20dp"
+                    android:textColor="#000000"/>
+                <TextView
+                    android:id="@+id/is_art_pe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:textColor="#000000" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="平台课性质: "
+                    android:textSize="20dp"
+                    android:textColor="#000000"/>
+                <TextView
+                    android:id="@+id/platform_class_nature"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:textColor="#000000" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="平台课类型: "
+                    android:textSize="20dp"
+                    android:textColor="#000000"/>
+                <TextView
+                    android:id="@+id/platform_class_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:textColor="#000000" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="授课语言: "
+                    android:textSize="20dp"
+                    android:textColor="#000000"/>
+                <TextView
+                    android:id="@+id/language"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:textColor="#000000" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="教材: "
+                    android:textSize="20dp"
+                    android:textColor="#000000"/>
+                <TextView
+                    android:id="@+id/textbook"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:textColor="#000000" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="参考书: "
+                    android:textSize="20dp"
+                    android:textColor="#000000"/>
+                <TextView
+                    android:id="@+id/reference"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:textColor="#000000" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="教学大纲: "
+                    android:textSize="20dp"
+                    android:textColor="#000000"/>
+                <TextView
+                    android:id="@+id/syllabus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:textColor="#000000" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="教学评估: "
+                    android:textSize="20dp"
+                    android:textColor="#000000"/>
+                <TextView
+                    android:id="@+id/evaluation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:textColor="#000000" />
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_comment"
+        app:layout_anchor="@id/appBar"
+        app:layout_anchorGravity="bottom|end"/>
+</android.support.design.widget.CoordinatorLayout>

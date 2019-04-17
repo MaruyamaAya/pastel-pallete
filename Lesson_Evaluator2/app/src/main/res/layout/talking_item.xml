@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="20dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="ID:"
+                android:textSize="20dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/talking_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="七"
+                android:textSize="20dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#000000"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/talking_time"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="end"
+            android:layout_marginEnd="20dp"
+            android:text="2018/06/04 00:12"
+            android:textSize="15dp"
+            android:textColor="#000000"/>
+        <TextView
+            android:id="@+id/talking_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:text="JAVA程序设计真是一门好课JAVA程序设计真是一门好课JAVA程序设计真是一门好课JAVA程序设计真是一门好课"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
