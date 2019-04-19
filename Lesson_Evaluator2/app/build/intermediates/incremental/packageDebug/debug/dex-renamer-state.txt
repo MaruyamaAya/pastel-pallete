@@ -1,0 +1,4 @@
+#Sun May 27 23:17:46 CST 2018
+base.0=C\:\\Users\\lenovo\\test\\Lesson_Evaluator2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

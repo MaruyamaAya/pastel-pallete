@@ -1,0 +1,4 @@
+#Sun May 27 23:18:26 CST 2018
+base.0=C\:\\Users\\lenovo\\test\\Lesson_Evaluator2\\app\\build\\intermediates\\transforms\\dex\\release\\0
+path.0=classes.dex
+renamed.0=classes.dex

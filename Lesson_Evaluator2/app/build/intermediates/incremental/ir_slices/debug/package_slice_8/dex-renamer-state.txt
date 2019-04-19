@@ -1,0 +1,4 @@
+#Wed Mar 20 21:39:04 CST 2019
+base.0=D\:\\le2\\Lesson_Evaluator2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\8
+path.0=classes.dex
+renamed.0=classes.dex
