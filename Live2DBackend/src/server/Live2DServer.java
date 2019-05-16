@@ -54,6 +54,10 @@ public class Live2DServer {
         return null;
     }
 
+    private void response(String user, JSONObject jsonObject) {
+        // TODO
+    }
+
     // END TODO
 
     public static void main(String[] args) {

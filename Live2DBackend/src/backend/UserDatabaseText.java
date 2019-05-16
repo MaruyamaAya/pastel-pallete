@@ -22,12 +22,12 @@ class UserDatabaseText extends UserDatabase {
     }
 
     @Override
-    List<StartTalkResponse> startTalk(StartTalkRequest request) {
+    StartTalkResponse startTalk(StartTalkRequest request) {
         return null;
     }
 
     @Override
-    List<EndTalkResponse> endTalk(EndTalkRequest request) {
+    EndTalkResponse endTalk(EndTalkRequest request) {
         return null;
     }
 

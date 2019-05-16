@@ -15,35 +15,30 @@ public class BackendMonitor {
 
     public String receiveSignUpRequest(SignUpRequest signUpRequest) {
         SignUpResponse signUpResponse = userDatabase.signUp(signUpRequest);
-        // TODO
         server.sendSignUpResponse(signUpResponse);
         return null;
     }
 
     public String receiveSignInRequest(SignInRequest signInRequest) {
         SignInResponse signInResponse = userDatabase.signIn(signInRequest);
-        // TODO
         server.sendSignInResponse(signInResponse);
         return null;
     }
 
     public String receiveLogOutRequest(LogOutRequest logOutRequest) {
         LogOutResponse logOutResponse = userDatabase.logOut(logOutRequest);
-        // TODO
         server.sendLogOutResponse(logOutResponse);
         return null;
     }
 
     public String receiveStartTalkRequest(StartTalkRequest startTalkRequest) {
         StartTalkResponse startTalkResponses = userDatabase.startTalk(startTalkRequest);
-        // TODO
         server.sendStartTalkResponse(startTalkResponses);
         return null;
     }
 
     public String receiveEndTalkRequest(EndTalkRequest endTalkRequest) {
         EndTalkResponse endTalkResponses = userDatabase.endTalk(endTalkRequest);
-        // TODO
         server.sendEndTalkResponse(endTalkResponses);
         return null;
     }
