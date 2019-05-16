@@ -3,6 +3,8 @@ package backend;
 import message.*;
 import server.Live2DServer;
 
+import java.util.List;
+
 public class BackendMonitor {
     private final UserDatabase userDatabase = new UserDatabaseText();
     private final Live2DServer server;
@@ -33,16 +35,16 @@ public class BackendMonitor {
     }
 
     public String receiveStartTalkRequest(StartTalkRequest startTalkRequest) {
-        StartTalkResponse startTalkResponse = userDatabase.startTalk(startTalkRequest);
+        StartTalkResponse startTalkResponses = userDatabase.startTalk(startTalkRequest);
         // TODO
-        server.sendStartTalkResponse(startTalkResponse);
+        server.sendStartTalkResponse(startTalkResponses);
         return null;
     }
 
     public String receiveEndTalkRequest(EndTalkRequest endTalkRequest) {
-        EndTalkResponse endTalkResponse = userDatabase.endTalk(endTalkRequest);
+        EndTalkResponse endTalkResponses = userDatabase.endTalk(endTalkRequest);
         // TODO
-        server.sendEndTalkResponse(endTalkResponse);
+        server.sendEndTalkResponse(endTalkResponses);
         return null;
     }
 

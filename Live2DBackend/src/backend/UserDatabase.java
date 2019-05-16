@@ -2,6 +2,8 @@ package backend;
 
 import message.*;
 
+import java.util.List;
+
 abstract class UserDatabase {
     // TODO implement
     abstract SignInResponse signIn(SignInRequest request);

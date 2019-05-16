@@ -1,7 +1,7 @@
 package message;
 
 public class EndTalkResponse extends Response {
-    public enum EndTalkResponseType {PASSED, ALREADY_ENDED, ERR}
+    public enum EndTalkResponseType {PASSED, ANOTHER_ENDED, ALREADY_ENDED, ERR}
 
     private EndTalkResponseType responseType;
 

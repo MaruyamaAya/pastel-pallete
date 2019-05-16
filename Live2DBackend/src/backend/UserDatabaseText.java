@@ -2,6 +2,8 @@ package backend;
 
 import message.*;
 
+import java.util.List;
+
 class UserDatabaseText extends UserDatabase {
 
     @Override
@@ -20,12 +22,12 @@ class UserDatabaseText extends UserDatabase {
     }
 
     @Override
-    StartTalkResponse startTalk(StartTalkRequest request) {
+    List<StartTalkResponse> startTalk(StartTalkRequest request) {
         return null;
     }
 
     @Override
-    EndTalkResponse endTalk(EndTalkRequest request) {
+    List<EndTalkResponse> endTalk(EndTalkRequest request) {
         return null;
     }
 
