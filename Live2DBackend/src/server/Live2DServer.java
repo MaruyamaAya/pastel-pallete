@@ -63,6 +63,10 @@ public class Live2DServer {
         'voice_path': ''
      */
     private void process(JSONObject json) {
+        if (json == null) {
+            System.err.println("PROCESS ERROR: null json");
+            return;
+        }
         String unique = json.optString("unique");
         String user = json.optString("user");
         int requestType = json.optInt("request_type", -1);
@@ -74,7 +78,7 @@ public class Live2DServer {
         String text = json.optString("text");
         String voicePath = json.optString("voice_path");
 
-        String err = null;
+        String err = "req type err";
         switch (requestType) {
             case MESSAGE:
                 MessageRequest messageRequest = new MessageRequest(
@@ -121,7 +125,7 @@ public class Live2DServer {
     /**
      * TODO: 异步发送消息给对应的客户端
      *
-     * @param json
+     * @param json      json object
      */
     private synchronized void response(JSONObject json) {
 
