@@ -1,47 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34bbc1a5-d982-445f-9aca-1a9e611cba56" name="Default" comment="" />
+    <list default="true" id="34bbc1a5-d982-445f-9aca-1a9e611cba56" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backend/UserData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Live2DBackend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Live2DBackend.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Live2DBackend/backend/BackendMonitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Live2DBackend/backend/BackendMonitor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Live2DBackend/backend/Emotion$EmotionLevel1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Live2DBackend/backend/Emotion$EmotionLevel1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Live2DBackend/backend/Emotion$EmotionLevel2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Live2DBackend/backend/Emotion$EmotionLevel2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Live2DBackend/backend/Emotion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Live2DBackend/backend/Emotion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Live2DBackend/backend/GestureChooser$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Live2DBackend/backend/GestureChooser$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Live2DBackend/backend/GestureChooser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Live2DBackend/backend/GestureChooser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Live2DBackend/backend/MessageReceived.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Live2DBackend/backend/MessageReceived.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Live2DBackend/backend/MessageToSend.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Live2DBackend/backend/MessageToSend.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Live2DBackend/backend/PythonScriptsMonitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Live2DBackend/backend/PythonScriptsMonitor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Live2DBackend/backend/UserDatabase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Live2DBackend/backend/UserDatabase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Live2DBackend/backend/UserDatabaseText.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Live2DBackend/backend/UserStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Live2DBackend/backend/UserStatus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Live2DBackend/message/EndTalkRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Live2DBackend/message/EndTalkRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Live2DBackend/message/EndTalkResponse$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Live2DBackend/message/EndTalkResponse$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Live2DBackend/message/EndTalkResponse$EndTalkResponseType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Live2DBackend/message/EndTalkResponse$EndTalkResponseType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Live2DBackend/message/EndTalkResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Live2DBackend/message/EndTalkResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Live2DBackend/message/LogOutRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Live2DBackend/message/LogOutRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Live2DBackend/message/LogOutResponse$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Live2DBackend/message/LogOutResponse$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Live2DBackend/message/LogOutResponse$LogOutResponseType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Live2DBackend/message/LogOutResponse$LogOutResponseType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Live2DBackend/message/LogOutResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Live2DBackend/message/LogOutResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Live2DBackend/message/MessageRequest$MessageRequestType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Live2DBackend/message/MessageRequest$MessageRequestType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Live2DBackend/message/MessageRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Live2DBackend/message/MessageRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Live2DBackend/message/MessageResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Live2DBackend/message/MessageResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Live2DBackend/message/Request.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Live2DBackend/message/Request.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Live2DBackend/message/Response.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Live2DBackend/message/Response.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Live2DBackend/message/SignInRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Live2DBackend/message/SignInRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Live2DBackend/message/SignInResponse$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Live2DBackend/message/SignInResponse$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Live2DBackend/message/SignInResponse$SignInResponseType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Live2DBackend/message/SignInResponse$SignInResponseType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Live2DBackend/message/SignInResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Live2DBackend/message/SignInResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Live2DBackend/message/SignUpRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Live2DBackend/message/SignUpRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Live2DBackend/message/SignUpResponse$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Live2DBackend/message/SignUpResponse$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Live2DBackend/message/SignUpResponse$SignUpResponseType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Live2DBackend/message/SignUpResponse$SignUpResponseType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Live2DBackend/message/SignUpResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Live2DBackend/message/SignUpResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Live2DBackend/message/StartTalkRequest$StartTalkRequestType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Live2DBackend/message/StartTalkRequest$StartTalkRequestType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Live2DBackend/message/StartTalkRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Live2DBackend/message/StartTalkRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Live2DBackend/message/StartTalkResponse$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Live2DBackend/message/StartTalkResponse$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Live2DBackend/message/StartTalkResponse$StartTalkResponseType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Live2DBackend/message/StartTalkResponse$StartTalkResponseType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Live2DBackend/message/StartTalkResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Live2DBackend/message/StartTalkResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Live2DBackend/server/Live2DServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Live2DBackend/server/Live2DServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Live2DBackend/test/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Live2DBackend/test/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backend/BackendMonitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backend/BackendMonitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backend/UserDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backend/UserDatabase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backend/UserDatabaseText.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backend/UserStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backend/UserStatus.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Live2DServer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/server/Live2DServer.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/backend/UserDatabase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="87" column="58" selection-start-line="87" selection-start-column="37" selection-end-line="87" selection-end-column="58" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3531#3532#0" expanded="true" />
-                <element signature="e#3558#3559#0" expanded="true" />
-                <element signature="e#3778#3779#0" expanded="true" />
-                <element signature="e#3805#3806#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MessageRequest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/message/MessageRequest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="650">
-              <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserDatabaseText.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/backend/UserDatabaseText.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="18" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="18" />
+            <state relative-caret-position="214">
+              <caret line="124" column="41" selection-start-line="124" selection-start-column="41" selection-end-line="124" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -49,13 +77,58 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BackendMonitor.java" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/message/EndTalkResponse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/message/EndTalkRequest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/backend/BackendMonitor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="96" column="31" selection-start-line="96" selection-start-column="19" selection-end-line="96" selection-end-column="31" />
+            <state relative-caret-position="228">
+              <caret line="50" column="70" selection-start-line="50" selection-start-column="64" selection-end-line="50" selection-end-column="70" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/backend/UserData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/backend/UserStatus.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-38">
+              <caret line="7" column="28" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="28" />
+              <folding>
+                <element signature="e#354#355#0" expanded="true" />
+                <element signature="e#419#420#0" expanded="true" />
+                <element signature="e#446#447#0" expanded="true" />
+                <element signature="e#484#485#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -70,6 +143,22 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>LogOut</find>
+      <find>setUser</find>
+      <find>UserData</find>
+      <find>write</find>
+      <find>newUser</find>
+      <find>push</find>
+      <find>pull</find>
+      <find>receiveStartTalkRequest</find>
+      <find>userDataList</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -89,11 +178,8 @@
         <option value="$PROJECT_DIR$/src/backend/MessageReceived.java" />
         <option value="$PROJECT_DIR$/src/message/Request.java" />
         <option value="$PROJECT_DIR$/scripts/message_backend.py" />
-        <option value="$PROJECT_DIR$/src/backend/UserStatus.java" />
         <option value="$PROJECT_DIR$/src/backend/GestureChooser.java" />
         <option value="$PROJECT_DIR$/src/backend/PythonScriptsMonitor.java" />
-        <option value="$PROJECT_DIR$/src/backend/UserDatabase.java" />
-        <option value="$PROJECT_DIR$/src/backend/UserDatabaseText.java" />
         <option value="$PROJECT_DIR$/src/message/Response.java" />
         <option value="$PROJECT_DIR$/src/message/LogOutResponse.java" />
         <option value="$PROJECT_DIR$/src/message/MessageResponse.java" />
@@ -103,26 +189,29 @@
         <option value="$PROJECT_DIR$/src/test/Test.java" />
         <option value="$PROJECT_DIR$/src/message/EndTalkResponse.java" />
         <option value="$PROJECT_DIR$/src/message/MessageRequest.java" />
-        <option value="$PROJECT_DIR$/src/backend/BackendMonitor.java" />
         <option value="$PROJECT_DIR$/src/message/StartTalkRequest.java" />
         <option value="$PROJECT_DIR$/src/server/Live2DServer.java" />
+        <option value="$PROJECT_DIR$/src/backend/UserDatabaseText.java" />
+        <option value="$PROJECT_DIR$/src/backend/UserStatus.java" />
+        <option value="$PROJECT_DIR$/src/backend/UserData.java" />
+        <option value="$PROJECT_DIR$/src/backend/BackendMonitor.java" />
+        <option value="$PROJECT_DIR$/src/backend/UserDatabase.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1612" />
-    <option name="height" value="876" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-260" />
+    <option name="y" value="216" />
+    <option name="width" value="1386" />
+    <option name="height" value="788" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -168,22 +257,26 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/backend/json-20180813.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\JavaProjects\Live2DBackend" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\JavaProjects\Live2DBackend\src\python\scripts" />
       <recent name="E:\JavaProjects\Live2DBackend\src\python" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\JavaProjects\Live2DBackend" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -209,6 +302,9 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="EndTalkResponse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="message.EndTalkResponse" />
@@ -220,6 +316,9 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="Live2DServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="server.Live2DServer" />
@@ -231,6 +330,9 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="PythonScriptsMonitor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="backend.PythonScriptsMonitor" />
@@ -242,6 +344,9 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.Test" />
@@ -253,47 +358,31 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
+    <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <list>
       <item itemvalue="Application.PythonScriptsMonitor" />
@@ -322,158 +411,53 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555565702375</updated>
+      <workItem from="1558425599377" duration="10122000" />
     </task>
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="10122000" />
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.32897604" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.40522876" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.2962963" />
-      <window_info id="Capture Tool" order="7" />
-      <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21375267" />
-      <window_info id="Learn" order="5" weight="0.32995737" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21633889" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info id="Learn" order="5" weight="0.32995737" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39978212" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Database Changes" order="2" />
+      <window_info anchor="bottom" id="Find" order="3" weight="0.3295082" />
+      <window_info active="true" anchor="bottom" id="Run" order="4" visible="true" weight="0.08688524" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.39978212" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.2962963" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32786885" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="right" id="Maven" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
     </layout>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="5" />
-    </breakpoint-manager>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/scripts/message_backend.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2950">
-          <caret line="118" column="11" lean-forward="true" selection-start-line="118" selection-start-column="11" selection-end-line="118" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/backend/BackendMonitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2775">
-          <caret line="111" column="25" selection-start-line="111" selection-start-column="25" selection-end-line="111" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/backend/BackendMonitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/Live2DServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/backend/PythonScriptsMonitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="32" column="52" lean-forward="true" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/message/MessageRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/backend/BackendMonitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/message/Request.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/message/SignInRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="71" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/message/StartTalkRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/backend/UserStatus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/message/Response.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="24" lean-forward="true" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/backend/BackendMonitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/backend/UserDatabase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/python/chatbot.py" />
     <entry file="file://$PROJECT_DIR$/scripts/emotion.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -490,13 +474,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/message/SendingMessage.java" />
-    <entry file="jar://E:/jar/jsonobject/json-lib-2.4-jdk15.jar!/net/sf/json/JSONObject.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6625">
-          <caret line="50" column="30" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://E:/jar/jsonobject/json-lib-2.4-jdk15.jar!/net/sf/json/JSONObject.class" />
     <entry file="file://$PROJECT_DIR$/scripts/query.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -504,66 +482,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/backend/Emotion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="643">
-          <caret line="66" column="9" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/nio/charset/spi/CharsetProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="112" column="28" selection-start-line="112" selection-start-column="28" selection-end-line="112" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/nio/charset/Charset.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10874">
-          <caret line="440" column="27" selection-start-line="440" selection-start-column="27" selection-end-line="440" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/backend/MessageToSend.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/nio/charset/spi/CharsetProvider.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/nio/charset/Charset.java" />
     <entry file="file://$PROJECT_DIR$/scripts/message_backend.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="443">
           <caret line="118" column="11" selection-start-line="118" selection-start-column="11" selection-end-line="118" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/backend/GestureChooser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/backend/UserStatus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/message/SignInRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/message/SignUpRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="71" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="71" />
         </state>
       </provider>
     </entry>
@@ -574,136 +498,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/backend/MessageReceived.java">
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/lang/Thread.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/util/Map.java" />
+    <entry file="jar://E:/jar/json-20180130.jar!/org/json/JSONObject.class" />
+    <entry file="file://$PROJECT_DIR$/../../../../../../大作业/Live2DBackend/Live2DBackend/src/backend/UserDatabase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="26" column="53" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="53" />
+        <state>
+          <caret lean-forward="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/message/LogOutResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/backend/UserDatabaseText.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/message/SignInResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="643">
-          <caret line="40" column="20" lean-forward="true" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/backend/UserData">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/message/SignUpResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="593">
-          <caret line="37" column="54" selection-start-line="37" selection-start-column="54" selection-end-line="37" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/message/EndTalkRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="4" column="33" lean-forward="true" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="501" column="11" selection-start-line="501" selection-start-column="11" selection-end-line="501" selection-end-column="11" />
-          <folding>
-            <element signature="e#17393#17394#0" expanded="true" />
-            <element signature="e#17459#17460#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Live2DBackend.iml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
+        <state relative-caret-position="304">
           <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/backend/UserDatabase.java">
+    <entry file="file://$PROJECT_DIR$/src/backend/MessageReceived.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="441">
+          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#print#0;class#MessageReceived#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/message/StartTalkResponse.java">
+    <entry file="file://$PROJECT_DIR$/src/backend/MessageToSend.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="24" column="37" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="95">
+          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/message/EndTalkResponse.java">
+    <entry file="file://$PROJECT_DIR$/src/backend/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1168#1169#0" expanded="true" />
-            <element signature="e#1204#1205#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="38">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/util/Map.java">
+    <entry file="file://$PROJECT_DIR$/src/backend/GestureChooser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="234" column="26" selection-start-line="234" selection-start-column="22" selection-end-line="234" selection-end-column="26" />
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/message/Request.java">
+    <entry file="file://$PROJECT_DIR$/src/backend/Emotion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/message/Response.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="49" column="7" lean-forward="true" selection-start-line="49" selection-start-column="7" selection-end-line="49" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/jar/json-20180130.jar!/org/json/JSONObject.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="596" column="15" selection-start-line="596" selection-start-column="15" selection-end-line="596" selection-end-column="15" />
-          <folding>
-            <element signature="e#19373#19374#0" expanded="true" />
-            <element signature="e#19415#19416#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="308">
+          <caret line="66" column="9" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/message/MessageResponse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="7" column="28" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="28" />
+        <state relative-caret-position="-357">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -712,18 +574,93 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/backend/PythonScriptsMonitor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+        <state relative-caret-position="147">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/backend/BackendMonitor.java">
+    <entry file="file://$PROJECT_DIR$/src/server/Live2DServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="96" column="31" selection-start-line="96" selection-start-column="19" selection-end-line="96" selection-end-column="31" />
+        <state relative-caret-position="83">
+          <caret line="53" column="15" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/message/LogOutResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-91">
+          <caret line="7" column="36" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/message/SignInResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="38" column="54" selection-start-line="38" selection-start-column="47" selection-end-line="38" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/message/MessageRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/message/SignInRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="36" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/message/Request.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/message/Response.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="817">
+          <caret line="49" column="7" lean-forward="true" selection-start-line="49" selection-start-column="7" selection-end-line="49" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/message/SignUpResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/message/SignUpRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="71" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/message/StartTalkResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-167">
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -732,36 +669,66 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/message/StartTalkRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/Live2DServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="87" column="58" selection-start-line="87" selection-start-column="37" selection-end-line="87" selection-end-column="58" />
+        <state relative-caret-position="360">
+          <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3531#3532#0" expanded="true" />
-            <element signature="e#3558#3559#0" expanded="true" />
-            <element signature="e#3778#3779#0" expanded="true" />
-            <element signature="e#3805#3806#0" expanded="true" />
+            <element signature="e#622#623#0" expanded="true" />
+            <element signature="e#656#657#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/message/MessageRequest.java">
+    <entry file="file://$PROJECT_DIR$/src/message/EndTalkRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+        <state relative-caret-position="57">
+          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/backend/UserDatabaseText.java">
+    <entry file="file://$PROJECT_DIR$/src/backend/UserData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="18" />
+        <state relative-caret-position="133">
+          <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/backend/UserStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-38">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="28" />
+          <folding>
+            <element signature="e#354#355#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/message/EndTalkResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/backend/BackendMonitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="50" column="70" selection-start-line="50" selection-start-column="64" selection-end-line="50" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/backend/UserDatabase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="124" column="41" selection-start-line="124" selection-start-column="41" selection-end-line="124" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -808,7 +775,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>10</last-edited>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

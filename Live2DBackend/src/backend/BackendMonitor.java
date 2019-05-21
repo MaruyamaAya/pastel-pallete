@@ -4,7 +4,7 @@ import message.*;
 import server.Live2DServer;
 
 public class BackendMonitor {
-    private final UserDatabase userDatabase = new UserDatabaseText();
+    private final UserDatabase userDatabase = new UserDatabase();
     private final Live2DServer server;
 
     public BackendMonitor(Live2DServer server) {
