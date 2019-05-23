@@ -16,6 +16,7 @@ public class PythonScriptsMonitor {
             BufferedReader br = new BufferedReader(new InputStreamReader(in));
             BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(out, "gbk"));
             String inputJsonString = messageToSend.toJsonString();
+            System.out.println(inputJsonString);
             bw.write(inputJsonString);
             bw.newLine();
             bw.flush();

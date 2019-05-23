@@ -4,6 +4,9 @@ import backend.BackendMonitor;
 import message.*;
 import org.json.JSONObject;
 
+import java.util.HashMap;
+import java.util.Map;
+
 
 public class Live2DServer {
     public static final int MESSAGE = 0;
@@ -15,6 +18,9 @@ public class Live2DServer {
 
     private final BackendMonitor backendMonitor = new BackendMonitor(this);
     private boolean stop = false;
+    Map<String, String> userUnique = new HashMap<>();
+    private int uniqueCnt = 0;
+    private int test = 0;
 
     /**
      * TODO: 服务器的初始化
@@ -123,21 +129,201 @@ public class Live2DServer {
     }
 
     /**
-     * TODO: 异步发送消息给对应的客户端
+     * TODO: 异步发送消息给对应的客户端，同时处理在线用户的信息
      *
-     * @param json      json object
+     * @param json json object
      */
     private synchronized void response(JSONObject json) {
+        int responseType = json.getInt("response_type");
+        String user = json.getString("user");
+        String unique = json.getString("unique");
+        int subResponseType = json.optInt("sub_response_type", -1);
+        if (responseType == SIGN_IN && subResponseType == 1)
+            userUnique.put(user, unique);
+        if (responseType == LOG_OUT && subResponseType == 1)
+            userUnique.remove(user);
+
+        // TODO 以下为测试代码
+        System.out.println(json);
 
     }
+/*
+json.put("unique", String.valueOf(uniqueCnt++));
+json.put("user", "Li Goudan");
+json.put("request_type", 0);
+json.put("request_time", System.currentTimeMillis());
+json.put("password", "123456");
+json.put("start_talk_request_type", 0);
+json.put("message_request_type", 0);
+json.put("use_text", 1);
+json.put("text", "ni hao");
+json.put("voice_path", "");
+ */
 
     /**
-     * TODO: 在主线程中被循环调用，侦听从客户端发来的JSON数据并返回
+     * TODO: 在主线程中被循环调用，侦听从客户端发来的JSON数据并返回；如果收到连接请求，处理完后不返回，回到开头继续执行。
      *
      * @return JSON
      */
     private JSONObject request() {
-        return null;
+        // TODO 以下为测试代码
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        JSONObject json = new JSONObject();
+        switch (test) {
+            case 0:
+                System.out.println("---sign up LGD");
+                json.put("unique", String.valueOf(uniqueCnt++));
+                json.put("user", "Li Goudan");
+                json.put("request_type", SIGN_UP);
+                json.put("request_time", System.currentTimeMillis());
+                json.put("password", "123456");
+                break;
+            case 1:
+                System.out.println("---sign in with wrong psw");
+                json.put("unique", String.valueOf(uniqueCnt++));
+                json.put("user", "Li Goudan");
+                json.put("request_type", SIGN_IN);
+                json.put("request_time", System.currentTimeMillis());
+                json.put("password", "12345");
+                break;
+            case 2:
+                System.out.println("---sign in LGD");
+                json.put("unique", String.valueOf(uniqueCnt++));
+                json.put("user", "Li Goudan");
+                json.put("request_type", SIGN_IN);
+                json.put("request_time", System.currentTimeMillis());
+                json.put("password", "123456");
+                break;
+            case 3:
+                System.out.println("---sign in again");
+                json.put("unique", String.valueOf(uniqueCnt++));
+                json.put("user", "Li Goudan");
+                json.put("request_type", SIGN_IN);
+                json.put("request_time", System.currentTimeMillis());
+                json.put("password", "123456");
+                break;
+            case 4:
+                System.out.println("---start talk with bot");
+                json.put("unique", userUnique.get("Li Goudan"));
+                json.put("user", "Li Goudan");
+                json.put("request_type", START_TALK);
+                json.put("request_time", System.currentTimeMillis());
+                json.put("start_talk_request_type", 1);
+                break;
+            case 5:
+                System.out.println("---message");
+                json.put("unique", userUnique.get("Li Goudan"));
+                json.put("user", "Li Goudan");
+                json.put("request_type", MESSAGE);
+                json.put("request_time", System.currentTimeMillis());
+                json.put("message_request_type", 0);
+                json.put("use_text", 1);
+                json.put("text", "你是个笨蛋！");
+                break;
+            case 6:
+                try {
+                    Thread.sleep(5000);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+                System.out.println("---end talk with bot");
+                json.put("unique", userUnique.get("Li Goudan"));
+                json.put("user", "Li Goudan");
+                json.put("request_type", END_TALK);
+                json.put("request_time", System.currentTimeMillis());
+                break;
+            case 7:
+                System.out.println("---end talk again");
+                json.put("unique", userUnique.get("Li Goudan"));
+                json.put("user", "Li Goudan");
+                json.put("request_type", END_TALK);
+                json.put("request_time", System.currentTimeMillis());
+                break;
+            case 8:
+                System.out.println("---sign up with repeated name");
+                json.put("unique", String.valueOf(uniqueCnt++));
+                json.put("user", "Li Goudan");
+                json.put("request_type", SIGN_UP);
+                json.put("request_time", System.currentTimeMillis());
+                json.put("password", "123456");
+                break;
+            case 9:
+                System.out.println("---sign up ZTZ");
+                json.put("unique", String.valueOf(uniqueCnt++));
+                json.put("user", "Zhao Tiezhu");
+                json.put("request_type", SIGN_UP);
+                json.put("request_time", System.currentTimeMillis());
+                json.put("password", "123");
+                break;
+            case 10:
+                System.out.println("---sign in ZTZ");
+                json.put("unique", String.valueOf(uniqueCnt++));
+                json.put("user", "Zhao Tiezhu");
+                json.put("request_type", SIGN_IN);
+                json.put("request_time", System.currentTimeMillis());
+                json.put("password", "123");
+                break;
+            case 11:
+                System.out.println("---start talk LGD");
+                json.put("unique", userUnique.get("Li Goudan"));
+                json.put("user", "Li Goudan");
+                json.put("request_type", START_TALK);
+                json.put("request_time", System.currentTimeMillis());
+                json.put("start_talk_request_type", 0);
+                break;
+            case 12:
+                System.out.println("---start talk ZTZ");
+                json.put("unique", userUnique.get("Zhao Tiezhu"));
+                json.put("user", "Zhao Tiezhu");
+                json.put("request_type", START_TALK);
+                json.put("request_time", System.currentTimeMillis());
+                json.put("start_talk_request_type", 0);
+                break;
+            case 13:
+                System.out.println("---message to LGD");
+                json.put("unique", userUnique.get("Li Goudan"));
+                json.put("user", "Li Goudan");
+                json.put("request_type", MESSAGE);
+                json.put("request_time", System.currentTimeMillis());
+                json.put("message_request_type", 0);
+                json.put("use_text", 0);
+                json.put("voice_path", "E:/GitHub/pastel-pallete/Live2DBackend/scripts/test2.wav");
+                break;
+            case 14:
+                try {
+                    Thread.sleep(3000);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+                System.out.println("---end talk ZTZ");
+                json.put("unique", userUnique.get("Zhao Tiezhu"));
+                json.put("user", "Zhao Tiezhu");
+                json.put("request_type", END_TALK);
+                json.put("request_time", System.currentTimeMillis());
+                break;
+            case 15:
+                System.out.println("---end talk LGD");
+                json.put("unique", userUnique.get("Li Goudan"));
+                json.put("user", "Li Goudan");
+                json.put("request_type", END_TALK);
+                json.put("request_time", System.currentTimeMillis());
+                break;
+            case 16:
+                System.out.println("---log out LGD");
+                json.put("unique", userUnique.get("Li Goudan"));
+                json.put("user", "Li Goudan");
+                json.put("request_type", LOG_OUT);
+                json.put("request_time", System.currentTimeMillis());
+                break;
+            default:
+                stop = true;
+        }
+        test++;
+        return json;
     }
 
     /**
@@ -147,7 +333,7 @@ public class Live2DServer {
      * @return unique id of the user, null if user is invalid
      */
     public String getUserUnique(String user) {
-        return null;
+        return userUnique.get(user);
     }
 
     public static void main(String[] args) {

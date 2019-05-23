@@ -5,13 +5,14 @@ import server.Live2DServer;
 
 public class SignInResponse extends Response {
     public enum SignInResponseType {
-        PASSED, NO_SUCH_USER, INCORRECT_PASSWORD, ERR;
+        PASSED, NO_SUCH_USER, INCORRECT_PASSWORD, ALREADY_ONLINE, ERR;
         public int toIndex() {
             switch (this) {
                 case ERR: return 0;
                 case PASSED: return 1;
                 case NO_SUCH_USER: return 2;
                 case INCORRECT_PASSWORD: return 3;
+                case ALREADY_ONLINE: return 4;
                 default: return 0;
             }
         }
