@@ -1,0 +1,31 @@
+{
+	"type":"Live2D Model Setting",
+	"name":"miku",
+	"model":"miku.moc",
+	"textures":[
+		"miku.2048/texture_00.png"
+	],
+	"physics":"miku.physics.json"
+	"motions":{
+		"null":[
+			{
+				"file":"motions/miku_m_01.mtn"
+			},
+			{
+				"file":"motions/miku_m_02.mtn"
+			},
+			{
+				"file":"motions/miku_m_03.mtn"
+			},
+			{
+				"file":"motions/miku_m_04.mtn"
+			}
+		],
+		"idle":[
+			{
+				"file":"motions/miku_idle_01.mtn"
+			}
+		]
+	},
+
+}
