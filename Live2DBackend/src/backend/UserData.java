@@ -27,7 +27,7 @@ class UserData {
     }
 
     public void setAnother(String another) {
-        this.another = new String(another);
+        this.another = another;
     }
 
     public void setStatus(UserStatus status) {
@@ -46,8 +46,8 @@ class UserData {
             System.out.println("Error! Can't write to UserList");
         }
 
-        this.name = new String(name);
-        this.password = new String(password);
+        this.name = name;
+        this.password = password;
         this.another = "?null";
         this.status = UserStatus.NOT_ONLINE;
         String path = "./UserDatabase/" + name + ".data";
@@ -61,21 +61,21 @@ class UserData {
         pull();
     }
 
-    public void pull() {
+    public synchronized void pull() {
         try {
             BufferedReader reader = new BufferedReader(new FileReader(userFile));
-            name = new String(reader.readLine());
-            password = new String(reader.readLine());
+            name = reader.readLine();
+            password = reader.readLine();
             String tempString = reader.readLine();
             status = UserStatus.fromTypeName(tempString);
-            another = new String(reader.readLine());
+            another = reader.readLine();
             reader.close();
         } catch (Exception e) {
             System.out.println("Error! Can't link to UserData");
         }
     }
 
-    synchronized public void push() {
+    public synchronized void push() {
         try {
             BufferedWriter writer = new BufferedWriter(new FileWriter(userFile));
             writer.write(name + "\n");

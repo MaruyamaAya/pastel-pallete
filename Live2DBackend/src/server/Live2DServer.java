@@ -168,7 +168,8 @@ json.put("voice_path", "");
     private JSONObject request() {
         // TODO 以下为测试代码
         try {
-            Thread.sleep(1000);
+            if (test != 12)
+                Thread.sleep(1000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -208,7 +209,7 @@ json.put("voice_path", "");
                 break;
             case 4:
                 System.out.println("---start talk with bot");
-                json.put("unique", userUnique.get("Li Goudan"));
+                json.put("unique", getUserUnique("Li Goudan"));
                 json.put("user", "Li Goudan");
                 json.put("request_type", START_TALK);
                 json.put("request_time", System.currentTimeMillis());
@@ -216,7 +217,7 @@ json.put("voice_path", "");
                 break;
             case 5:
                 System.out.println("---message");
-                json.put("unique", userUnique.get("Li Goudan"));
+                json.put("unique", getUserUnique("Li Goudan"));
                 json.put("user", "Li Goudan");
                 json.put("request_type", MESSAGE);
                 json.put("request_time", System.currentTimeMillis());
@@ -231,14 +232,14 @@ json.put("voice_path", "");
                     e.printStackTrace();
                 }
                 System.out.println("---end talk with bot");
-                json.put("unique", userUnique.get("Li Goudan"));
+                json.put("unique", getUserUnique("Li Goudan"));
                 json.put("user", "Li Goudan");
                 json.put("request_type", END_TALK);
                 json.put("request_time", System.currentTimeMillis());
                 break;
             case 7:
                 System.out.println("---end talk again");
-                json.put("unique", userUnique.get("Li Goudan"));
+                json.put("unique", getUserUnique("Li Goudan"));
                 json.put("user", "Li Goudan");
                 json.put("request_type", END_TALK);
                 json.put("request_time", System.currentTimeMillis());
@@ -269,7 +270,7 @@ json.put("voice_path", "");
                 break;
             case 11:
                 System.out.println("---start talk LGD");
-                json.put("unique", userUnique.get("Li Goudan"));
+                json.put("unique", getUserUnique("Li Goudan"));
                 json.put("user", "Li Goudan");
                 json.put("request_type", START_TALK);
                 json.put("request_time", System.currentTimeMillis());
@@ -277,7 +278,7 @@ json.put("voice_path", "");
                 break;
             case 12:
                 System.out.println("---start talk ZTZ");
-                json.put("unique", userUnique.get("Zhao Tiezhu"));
+                json.put("unique", getUserUnique("Zhao Tiezhu"));
                 json.put("user", "Zhao Tiezhu");
                 json.put("request_type", START_TALK);
                 json.put("request_time", System.currentTimeMillis());
@@ -285,7 +286,7 @@ json.put("voice_path", "");
                 break;
             case 13:
                 System.out.println("---message to LGD");
-                json.put("unique", userUnique.get("Li Goudan"));
+                json.put("unique", getUserUnique("Li Goudan"));
                 json.put("user", "Li Goudan");
                 json.put("request_type", MESSAGE);
                 json.put("request_time", System.currentTimeMillis());
@@ -327,8 +328,6 @@ json.put("voice_path", "");
     }
 
     /**
-     * TODO: 对于一个在线的用户，返回其客户端标识；若user为null或""，返回null
-     *
      * @param user an online user
      * @return unique id of the user, null if user is invalid
      */
