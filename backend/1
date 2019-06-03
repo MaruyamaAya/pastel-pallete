@@ -1,0 +1,26 @@
+{content}:
+   - {"content_type": "text", "text": str, "emo": int, 'another': bool, 'time': str}
+   - {"content_type": "voice", "voice": str, "emo": int, 'another': bool, 'time': str}
+
+log_in请求："user_name": str，"password": str, "msg_type": "log_in"
+返回："state": "success/failure"
+
+sign_up请求："user_name": str, "password": str,"msg_type": "sign_up"
+返回："state": "success/failure"
+
+get_contact请求："user_name": str, "msg_type": "get_contact"
+返回："contacts": [{"user_name": str, "last_msg": str/"voice"}, ...]
+
+get_message请求："from": str, "to": str, "msg_type": "get_message"
+返回："messages": [{content}, ...], "num_of_voices": int
+然后依次发给我语音的文件，文件名称为发送时间.aac 例：Jun_2__2019_12_14_54_PM.aac
+
+add_friend请求："from": str, "to": str, "msg_type": "add_friend"
+返回："state": "success/failure"
+
+send_text请求: "from": str, "to", str, "content": str, "time": "时间，格式同上例", "msg_type": "send_text"
+返回：向两方客户端发送"refresh"字符串，不用json直接传字符串就行
+
+send_voice请求："from": str, "to", str, "time": "时间，格式同上例"，"msg_type": "send_voice"
+接收语音文件并进行保存
+然后向两方客户端发送“refresh”字符串
